@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/code/code",
+    "pages/mime/mime",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "while(true)",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+
+  "usingComponents": {
+    "van-tabbar": "miniprogram_npm/@vant/weapp/tabbar/index",
+    "van-tabbar-item": "miniprogram_npm/@vant/weapp/tabbar-item/index"
+  },
+
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#FF69B4",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath":"images/tabbar/home_ex.png",
+        "selectedIconPath":"images/tabbar/home.png",
+        "text": "home"
+      },
+      {
+        "pagePath": "pages/code/code",
+        "iconPath": "images/tabbar/code_ex.png",
+        "selectedIconPath": "images/tabbar/code.png",
+        "text": "code"
+      },
+      {
+        "pagePath": "pages/mime/mime",
+        "iconPath": "images/tabbar/mime_ex.png",
+        "selectedIconPath": "images/tabbar/mime.png",
+        "text": "mime"
+      }
+    ]
+  },
+
+ 
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<!-- 搜索 -->
+<van-search
+  placeholder="请输入搜索关键词"
+  use-action-slot = "true"
+  use-left-icon-slot ="true"
+  clearable = "true"
+  bind:search = "onSearch"
+>
+  <view slot="action" bind:tap="onSearch">搜索</view>
+</van-search>
+
+ <!-- 下拉菜单 -->
+ 
+    <template>
+      <div class="main">
+        <van-dropdown-menu>
+          <van-dropdown-item v-model="{{value1}}" :options="{{option1}}" />
+        </van-dropdown-menu>
+      </div>
+    </template>
+
+
