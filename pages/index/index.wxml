@@ -9,15 +9,14 @@
 >
   <view slot="action" bind:tap="onSearch">搜索</view>
 </van-search>
-
- <!-- 下拉菜单 -->
  
-    <template>
-      <div class="main">
-        <van-dropdown-menu>
-          <van-dropdown-item v-model="{{value1}}" :options="{{option1}}" />
-        </van-dropdown-menu>
-      </div>
-    </template>
+ <van-card
+  num="2"
+  tag="11"
+  desc="描述信息131313213213132131313131316464"
+  title="商品标题"
+  thumb="{{ imageURL }}"
+>
+</van-card>
 
 
